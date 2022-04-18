@@ -1,0 +1,54 @@
+/*@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');*/
+.root {
+    -fx-background-color: #126782;
+    -fx-font-size: 20pt;
+    -fx-font-family: 'Times New Roman';
+}
+
+.label {
+    -fx-text-fill: #FD9E02;
+}
+
+.button {
+    -fx-background-color: #FD9E02;
+    -fx-background-radius: 15;
+}
+
+.button:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-background-color: gold;
+}
+
+#exit {
+    -fx-background-color: #d30202;
+}
+
+#exit:hover {
+    -fx-background-color: #dd4204;
+}
+
+.check-box {
+    -fx-font-size: 15;
+}
+
+
+#easy:selected .radio .dot {
+    -fx-background-color: #18c908;
+}
+
+#medium:selected .radio .dot {
+    -fx-background-color: yellow;
+}
+
+#hard:selected .radio .dot {
+    -fx-background-color: red;
+}
+
+#insane:selected .radio .dot {
+    -fx-background-color: purple;
+}
+
+#userNames {
+    -fx-font-size: 15;
+}

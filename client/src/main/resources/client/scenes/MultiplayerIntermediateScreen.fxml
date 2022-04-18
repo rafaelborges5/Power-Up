@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="950.0" stylesheets="@../../stylesheets/menu_stylesheet.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.scenes.MultiplayerIntermediateScreenCtrl">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#219ebc" height="117.0" stroke="#219ebc" strokeType="INSIDE" width="950.0" />
+      <Text fx:id="countdown" layoutX="325.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Continues in # Seconds" textAlignment="CENTER" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#219ebc" height="415.0" layoutX="239.0" layoutY="140.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
+      <VBox layoutX="239.0" layoutY="140.0" prefHeight="416.0" prefWidth="501.0">
+         <children>
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="name1" alignment="CENTER" prefHeight="77.0" prefWidth="324.0" />
+                  <Label fx:id="score1" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="175.0" />
+               </children>
+            </HBox>
+            <Line endX="348.380126953125" endY="-16.62646484375" startX="-150.912841796875" startY="-16.627761840820312" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="name2" alignment="CENTER" prefHeight="77.0" prefWidth="324.0" />
+                  <Label fx:id="score2" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="175.0" />
+               </children>
+            </HBox>
+            <Line endX="348.380126953125" endY="-16.62646484375" startX="-150.912841796875" startY="-16.627761840820312" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="name3" alignment="CENTER" prefHeight="77.0" prefWidth="324.0" />
+                  <Label fx:id="score3" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="175.0" />
+               </children>
+            </HBox>
+            <Line endX="348.380126953125" endY="-16.62646484375" startX="-150.912841796875" startY="-16.627761840820312" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="name4" alignment="CENTER" prefHeight="77.0" prefWidth="324.0" />
+                  <Label fx:id="score4" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="175.0" />
+               </children>
+            </HBox>
+            <Line endX="348.380126953125" endY="-16.62646484375" startX="-150.912841796875" startY="-16.627761840820312" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="name5" alignment="CENTER" prefHeight="77.0" prefWidth="324.0" />
+                  <Label fx:id="score5" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="175.0" />
+               </children>
+            </HBox>
+            <Line endX="348.380126953125" endY="-16.62646484375" startX="-150.912841796875" startY="-16.627761840820312" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="name6" alignment="CENTER" prefHeight="77.0" prefWidth="324.0" />
+                  <Label fx:id="score6" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="175.0" />
+               </children>
+            </HBox>
+            <Line endX="348.380126953125" endY="-16.62646484375" startX="-150.912841796875" startY="-16.627761840820312" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="name7" alignment="CENTER" prefHeight="77.0" prefWidth="324.0" />
+                  <Label fx:id="score7" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="175.0" />
+               </children>
+            </HBox>
+            <Line endX="348.380126953125" endY="-16.62646484375" startX="-150.912841796875" startY="-16.627761840820312" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="name8" alignment="CENTER" prefHeight="77.0" prefWidth="324.0" />
+                  <Label fx:id="score8" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="175.0" />
+               </children>
+            </HBox>
+            <Line endX="348.380126953125" endY="-16.62646484375" startX="-150.912841796875" startY="-16.627761840820312" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="name9" alignment="CENTER" prefHeight="77.0" prefWidth="324.0" />
+                  <Label fx:id="score9" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="175.0" />
+               </children>
+            </HBox>
+            <Line endX="348.380126953125" endY="-16.62646484375" startX="-150.912841796875" startY="-16.627761840820312" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="name10" alignment="CENTER" prefHeight="77.0" prefWidth="324.0" />
+                  <Label fx:id="score10" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="175.0" />
+               </children>
+            </HBox>
+            <Line endX="348.380126953125" endY="-16.62646484375" startX="-150.912841796875" startY="-16.627761840820312" />
+         </children>
+      </VBox>
+      <HBox layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#219ebc" height="54.0" layoutX="241.0" layoutY="596.0" stroke="BLACK" strokeType="INSIDE" width="503.0" />
+      <HBox layoutX="242.0" layoutY="598.0" prefHeight="50.0" prefWidth="502.0">
+         <children>
+            <Label fx:id="playerName" alignment="CENTER" prefHeight="50.0" prefWidth="315.0" />
+            <Label fx:id="playerScore" alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="184.0" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

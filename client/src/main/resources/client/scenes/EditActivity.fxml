@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="680.0" prefWidth="950.0" stylesheets="@../../stylesheets/menu_stylesheet.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.scenes.EditActivityCtrl">
+    <children>
+        <Rectangle fill="#8ecae6" height="70.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="950.0" />
+        <Text layoutX="406.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Activity" />
+        <Button fx:id="returnAdmin" layoutX="30.0" layoutY="612.0" mnemonicParsing="false" onAction="#goToAdmin" text="Return" />
+      <TextField fx:id="title" layoutX="155.0" layoutY="136.0" prefHeight="48.0" prefWidth="641.0" promptText="Insert Title" />
+      <TextField fx:id="consumption" layoutX="155.0" layoutY="260.0" prefHeight="48.0" prefWidth="641.0" promptText="Insert Consumption" />
+      <TextField fx:id="source" layoutX="155.0" layoutY="385.0" prefHeight="48.0" prefWidth="641.0" promptText="Insert Source" />
+      <TextField fx:id="image_path" layoutX="155.0" layoutY="505.0" onMouseClicked="#chooseFile" prefHeight="48.0" prefWidth="641.0" promptText="Insert Image" />
+      <Label layoutX="450.0" layoutY="106.0" text="Title" />
+      <Label layoutX="367.0" layoutY="230.0" text="Consumption in Wh" />
+      <Label layoutX="438.0" layoutY="355.0" text="Source" />
+      <Label layoutX="415.0" layoutY="475.0" text="Image Path" />
+      <Button fx:id="delete" layoutX="811.0" layoutY="612.0" mnemonicParsing="false" onAction="#deleteActivity" text="Delete" />
+      <TextField fx:id="id" layoutX="155.0" layoutY="11.0" prefHeight="48.0" prefWidth="641.0" promptText="Insert ID" />
+      <Button fx:id="addActivity" layoutX="421.0" layoutY="612.0" mnemonicParsing="false" onAction="#goToAdmin" text="Add" />
+      <Label fx:id="pathInfo" layoutX="445.0" layoutY="561.0" />
+    </children>
+</AnchorPane>

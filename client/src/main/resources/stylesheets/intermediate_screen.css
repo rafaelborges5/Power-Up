@@ -1,0 +1,19 @@
+/*@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');*/
+
+
+.root {
+    -fx-background-color: #126782;
+    -fx-font-size: 20pt;
+    -fx-font-family: 'Times New Roman';
+}
+
+.label {
+    -fx-text-fill: #FD9E02;
+
+}
+
+#timeLeftLabel, #pointsLabel {
+    -fx-text-fill: #8ECAE6;
+}
+
+

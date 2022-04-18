@@ -1,0 +1,65 @@
+/*@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');*/
+
+.root {
+    -fx-background-color: #126782;
+    -fx-font-family: 'Times New Roman';
+}
+
+.button:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+.progress-bar {
+    -fx-accent: #FB8500;
+}
+
+.progress-bar .bar {
+    -fx-padding: 1px;
+    -fx-background-insets: 0;
+    -fx-background-radius: 15;
+}
+
+.progress-bar > .track {
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-text-box-border: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-background-color: #126782;
+}
+
+#question {
+    -fx-background-color: #023047;
+    -fx-text-fill: #FB8500;
+    -fx-background-radius: 15;
+}
+
+#questionText{
+    -fx-fill: #FB8500;
+    -fx-background-color: #023047;
+    -fx-background-radius: 15;
+}
+
+#option1, #option2, #option3, #help {
+    -fx-background-color: #8ECAE6;
+    -fx-text-fill: #FB8500;
+    -fx-background-radius: 15;
+}
+
+#joker1, #joker2, #joker3, #exit, #bar {
+    -fx-background-color: #023047;
+    -fx-background-radius: 15;
+    -fx-text-fill: #FFB703;
+
+}
+
+#time, #score, #questionNumber {
+    -fx-background-color: #C4C4C4;
+    -fx-background-radius: 15;
+    -fx-text-fill: black;
+}
+
+#smiling:hover, #anger:hover, #devil:hover, #inLove:hover, #thinking:hover, #crying:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}

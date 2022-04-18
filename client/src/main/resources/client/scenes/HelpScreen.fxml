@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="950.0" style="-fx-background-color: #219EBC;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.scenes.HelpCtrl">
+    <children>
+        <Rectangle fill="#126782" height="70.0" layoutX="-3.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="956.0" />
+        <Text fill="#fb8500" layoutX="433.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help">
+            <font>
+                <Font size="40.0" />
+            </font>
+        </Text>
+        <Label layoutX="39.0" layoutY="109.0" style="-fx-font-weight: bold;" text="FAQ" textFill="#fd9e02">
+            <font>
+                <Font size="42.0" />
+            </font>
+        </Label>
+        <Label layoutX="81.0" layoutY="187.0" text="Q: How many questions are in a game?" textFill="#ffb703">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <Text fill="WHITE" layoutX="81.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A: There is 20 questions" wrappingWidth="279.7379455566406">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Label layoutX="81.0" layoutY="276.0" text="Who can start a multiplayer game?" textFill="#ffb703">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <Text fill="WHITE" layoutX="81.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A game can be started by anyone, as soon as there are 2 players in the lobby" wrappingWidth="732.5379333496094">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Label layoutX="80.0" layoutY="367.0" text="What is a Joker Card?" textFill="#ffb703">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <Text fill="WHITE" layoutX="77.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Joker Cards are powerups that can be used by a player. Each card can be used only once. A card can be used to either help you answer the question or to sabotage your friends!" wrappingWidth="794.9379577636719">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Label layoutX="81.0" layoutY="482.0" text="How many players can join one multiplayer game?" textFill="#ffb703">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <Text fill="WHITE" layoutX="81.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There is no limit! " wrappingWidth="732.5379333496094">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Button layoutX="60.0" layoutY="630.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#goToMenu" prefHeight="25.0" prefWidth="65.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #023047; -fx-background-radius: 10;" text="Return" textFill="#fb8500" />
+    </children>
+</Pane>
